@@ -4,11 +4,11 @@
 
 ## Summary
 
-A minimal file based database system that stores all data as lines in a txt file. The system works off of storage files known as buckets.
+A minimal file based database system that stores all data as lines in a .txt file. The system works off of storage files known as buckets.
 
 ## Build
 
-Bucket Database is completely build with standard gin libraries.
+Bucket Database is completely built with standard gin libraries.
 
 ## How to Start
 
