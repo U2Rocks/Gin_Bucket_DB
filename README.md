@@ -12,11 +12,11 @@ Bucket Database is completely build with standard gin libraries.
 
 ## How to Start
 
-- Create a new bucket with <span style="background-color: yellow; color: black;"> dbObject := newDefaultBucket("normal", "new bucket")</span> which returns a pointer
-- Create a new dbClient object with <span style="background-color: yellow; color: black;"> newClient := &dbClient{ user: "admin", pass: "admin",}</span> which returns a pointer
-- Add your first item to the database with <span style="background-color: yellow; color: black;"> dbObject.writeToStorage("Hello World", newClient)</span>
-- Check out your new DB with <span style="background-color: yellow; color: black;"> returnList2 := dbObject.readBucket(newClient)</span> which returns a slice of strings
-- Print the contents of the new DB with <span style="background-color: yellow; color: black;"> fmt.Println(returnlist2)</span>
+- Create a new bucket with <span style="background-color: yellow; color: black;">[ dbObject := newDefaultBucket("normal", "new bucket") ]</span> which returns a pointer
+- Create a new dbClient object with <span style="background-color: yellow; color: black;">[ newClient := &dbClient{ user: "admin", pass: "admin",} ]</span> which returns a pointer
+- Add your first item to the database with <span style="background-color: yellow; color: black;">[ dbObject.writeToStorage("Hello World", newClient) ]</span>
+- Check out your new DB with <span style="background-color: yellow; color: black;">[ returnList2 := dbObject.readBucket(newClient) ]</span> which returns a slice of strings
+- Print the contents of the new DB with <span style="background-color: yellow; color: black;">[ fmt.Println(returnlist2) ]</span>
 
 ### Notes and Final Comments
 
